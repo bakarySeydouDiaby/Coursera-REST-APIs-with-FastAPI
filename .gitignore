@@ -1,2 +1,39 @@
+# Environment variables
 .env
-__pycache__
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+
+# Logs
+*.log
+*.out
+*.err
+
+# IDE files
+.vscode/
+.idea/
+
+# Test coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Mypy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Database files
+*.sqlite3
+*.db
+
+# Static files
+staticfiles/
